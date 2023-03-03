@@ -1,0 +1,172 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v19="http://fedex.com/ws/ship/v19">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v19:ProcessShipmentRequest xmlns:m="http://fedex.com/ws/ship/v19">
+         <v19:WebAuthenticationDetail>
+            <v19:UserCredential>
+               <v19:Key>Input Your Information</v19:Key>
+               <v19:Password/>
+            </v19:UserCredential>
+         </v19:WebAuthenticationDetail>
+         <v19:ClientDetail>
+            <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+            <v19:MeterNumber>Input Your Information</v19:MeterNumber>
+         </v19:ClientDetail>
+         <v19:TransactionDetail>
+            <v19:CustomerTransactionId>123790</v19:CustomerTransactionId>
+         </v19:TransactionDetail>
+         <v19:Version>
+            <v19:ServiceId>ship</v19:ServiceId>
+            <v19:Major>19</v19:Major>
+            <v19:Intermediate>0</v19:Intermediate>
+            <v19:Minor>0</v19:Minor>
+         </v19:Version>
+         <v19:RequestedShipment>
+             <v19:ShipTimestamp>2015-12-29T12:34:56-06:00</v19:ShipTimestamp>
+            <v19:DropoffType>REGULAR_PICKUP</v19:DropoffType>
+            <v19:ServiceType>STANDARD_OVERNIGHT</v19:ServiceType>
+            <v19:PackagingType>YOUR_PACKAGING</v19:PackagingType>
+            <v19:Shipper>
+               <v19:Contact>
+                  <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                  <v19:EMailAddress>Input Your Information</v19:EMailAddress>
+               </v19:Contact>
+               <v19:Address>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>DUBAI CITY</v19:City>
+                  <v19:StateOrProvinceCode>DU</v19:StateOrProvinceCode>
+                  <v19:PostalCode>20001</v19:PostalCode>
+                  <v19:CountryCode>AE</v19:CountryCode>
+               </v19:Address>
+            </v19:Shipper>
+            <v19:Recipient>
+               <v19:Contact>
+                  <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                  <v19:EMailAddress>Input Your Information</v19:EMailAddress>
+               </v19:Contact>
+               <v19:Address>
+                 <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>SHARJAH CITY</v19:City>
+                  <v19:StateOrProvinceCode>SH</v19:StateOrProvinceCode>
+                  <v19:PostalCode>30001</v19:PostalCode>
+                  <v19:CountryCode>AE</v19:CountryCode>
+               </v19:Address>
+            </v19:Recipient>
+            <v19:Origin>
+               <v19:Contact>
+                  <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                  <v19:EMailAddress>Input Your Information</v19:EMailAddress>
+               </v19:Contact>
+               <v19:Address>
+                <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>DUBAI CITY</v19:City>
+                  <v19:StateOrProvinceCode>DU</v19:StateOrProvinceCode>
+                  <v19:PostalCode>20001</v19:PostalCode>
+                  <v19:CountryCode>AE</v19:CountryCode>
+               </v19:Address>
+            </v19:Origin>
+            <v19:ShippingChargesPayment>
+               <v19:PaymentType>SENDER</v19:PaymentType>
+               <v19:Payor>
+                  <v19:ResponsibleParty>
+                     <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+                     <v19:Contact>
+                        <v19:Title>fedex</v19:Title>
+                     </v19:Contact>
+                     <v19:Address>
+                        <v19:CountryCode>US</v19:CountryCode>
+                     </v19:Address>
+                  </v19:ResponsibleParty>
+               </v19:Payor>
+            </v19:ShippingChargesPayment>
+            <v19:ExpressFreightDetail>
+               <v19:PackingListEnclosed>true</v19:PackingListEnclosed>
+               <v19:ShippersLoadAndCount>12345</v19:ShippersLoadAndCount>
+               <v19:BookingConfirmationNumber>1234567890</v19:BookingConfirmationNumber>
+            </v19:ExpressFreightDetail>
+            <v19:CustomsClearanceDetail>
+               <v19:DutiesPayment>
+                  <v19:PaymentType>SENDER</v19:PaymentType>
+               </v19:DutiesPayment>
+               <v19:DocumentContent>NON_DOCUMENTS</v19:DocumentContent>
+               <v19:CustomsValue>
+                  <v19:Currency>DHS</v19:Currency>
+                  <v19:Amount>200.0</v19:Amount>
+               </v19:CustomsValue>
+               <v19:Commodities>
+                  <v19:Name/>
+                  <v19:NumberOfPieces>1</v19:NumberOfPieces>
+                  <v19:Description>BOOKS</v19:Description>
+                  <v19:CountryOfManufacture>AE</v19:CountryOfManufacture>
+                  <v19:HarmonizedCode>1004000010</v19:HarmonizedCode>
+                  <v19:Weight>
+                     <v19:Units>KG</v19:Units>
+                     <v19:Value>1.0</v19:Value>
+                  </v19:Weight>
+                  <v19:Quantity>1</v19:Quantity>
+                  <v19:QuantityUnits>EA</v19:QuantityUnits>
+                  <v19:UnitPrice>
+                     <v19:Currency>DHS</v19:Currency>
+                     <v19:Amount>200.000000</v19:Amount>
+                  </v19:UnitPrice>
+                  <v19:CustomsValue>
+                     <v19:Currency>DHS</v19:Currency>
+                     <v19:Amount>200</v19:Amount>
+                  </v19:CustomsValue>
+               </v19:Commodities>
+               <v19:ExportDetail>
+                  <v19:B13AFilingOption>NOT_REQUIRED</v19:B13AFilingOption>
+                  <v19:ExportComplianceStatement>NO EEI 30.37(f)</v19:ExportComplianceStatement>
+               </v19:ExportDetail>
+            </v19:CustomsClearanceDetail>
+            <v19:LabelSpecification>
+               <v19:LabelFormatType>COMMON2D</v19:LabelFormatType>
+               <v19:ImageType>PNG</v19:ImageType>
+               <v19:LabelStockType>PAPER_4X6</v19:LabelStockType>
+            </v19:LabelSpecification>
+            <v19:PackageCount>1</v19:PackageCount>
+            <v19:RequestedPackageLineItems>
+               <v19:SequenceNumber>1</v19:SequenceNumber>
+               <v19:InsuredValue>
+                  <v19:Currency>DHS</v19:Currency>
+                  <v19:Amount>200.00</v19:Amount>
+               </v19:InsuredValue>
+               <v19:Weight>
+                  <v19:Units>KG</v19:Units>
+                  <v19:Value>10.0</v19:Value>
+               </v19:Weight>
+               <v19:Dimensions>
+                  <v19:Length>20</v19:Length>
+                  <v19:Width>20</v19:Width>
+                  <v19:Height>20</v19:Height>
+                  <v19:Units>CM</v19:Units>
+               </v19:Dimensions>
+               <v19:ItemDescription>Intra Country Shipments</v19:ItemDescription>
+               <v19:ItemDescriptionForClearance>Intra Country Shipments</v19:ItemDescriptionForClearance>
+               <v19:CustomerReferences>
+                  <v19:CustomerReferenceType>DEPARTMENT_NUMBER</v19:CustomerReferenceType>
+                  <v19:Value>SQA</v19:Value>
+               </v19:CustomerReferences>
+               <v19:CustomerReferences>
+                  <v19:CustomerReferenceType>CUSTOMER_REFERENCE</v19:CustomerReferenceType>
+                  <v19:Value>107362NDE0000123790</v19:Value>
+               </v19:CustomerReferences>
+               <v19:CustomerReferences>
+                  <v19:CustomerReferenceType>INTRACOUNTRY_REGULATORY_REFERENCE</v19:CustomerReferenceType>
+                  <v19:Value>107362NDE0000123790</v19:Value>
+               </v19:CustomerReferences>
+               <v19:ContentRecords>
+                  <v19:Description>BOOKS</v19:Description>
+               </v19:ContentRecords>
+            </v19:RequestedPackageLineItems>
+         </v19:RequestedShipment>
+      </v19:ProcessShipmentRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

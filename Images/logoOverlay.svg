@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 312 374" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-40.5016,-48.5069)">
+        <g transform="matrix(0.180011,0,0,0.180011,37.8706,146.507)">
+            <g>
+                <g>
+                    <g transform="matrix(1.49231,0,0,1.44741,-178.216,-99.3488)">
+                        <ellipse cx="378.332" cy="187.368" rx="70.811" ry="67.27" style="fill:rgb(245,242,207);stroke:black;stroke-width:0.86px;"/>
+                    </g>
+                    <g transform="matrix(0.975678,0.0780856,-0.0748306,0.935007,24.8145,-9.40405)">
+                        <path d="M318.559,245.455C325.925,236.266 338.96,234.869 353.826,236.266C359.154,236.767 332.497,220.882 308.611,237.48C308.611,237.48 313.703,241.562 318.559,245.455Z" style="stroke:black;stroke-width:1px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+                    </g>
+                    <path d="M400.114,169.935C419.06,276.785 398.132,378.221 299.407,469.091C364.901,503.613 399.412,471.05 431.181,439.587C430.297,452.368 427.337,467.492 417.738,481.725C471.189,482.818 501.576,455 515.809,405.981C520.683,420.35 519.653,434.227 515.809,447.87C559.075,432.974 581.773,402.371 587.62,358.107C619.165,401.565 629.222,447.41 628.845,494.415C734.698,330.511 645.85,82.667 379.501,70.863C365.919,52.75 349.69,37.285 330.298,24.983L343.78,76.854C324.922,53.029 306.444,40.228 288.312,37.465C298.524,54.342 306.429,75.374 313.01,98.789C283.032,130.95 276.808,160.688 282.423,189.218L400.114,169.935Z" style="stroke:black;stroke-width:1px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+                </g>
+                <g transform="matrix(0.97596,-0.217948,0.217948,0.97596,-38.348,79.1831)">
+                    <ellipse cx="326.001" cy="161.254" rx="17.39" ry="6.17" style="fill:white;"/>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(0.620425,0,0,0.620425,88.3204,96.8179)">
+            <text x="120.607px" y="179.785px" style="font-family:'Impact', sans-serif;font-stretch:condensed;font-size:73.355px;">BITTER</text>
+        </g>
+    </g>
+</svg>

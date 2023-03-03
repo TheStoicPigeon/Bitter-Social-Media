@@ -1,0 +1,32 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <RateReply xmlns="http://fedex.com/ws/rate/v20">
+         <HighestSeverity>ERROR</HighestSeverity>
+         <Notifications>
+            <Severity>ERROR</Severity>
+            <Source>crs</Source>
+            <Code>776</Code>
+            <Message>Package 1 - Special Service  Appointment Delivery is not allowed for service.</Message>
+            <LocalizedMessage>Package 1 - Special Service  Appointment Delivery is not allowed for service.</LocalizedMessage>
+            <MessageParameters>
+               <Id>PACKAGE_INDEX</Id>
+               <Value>1</Value>
+            </MessageParameters>
+            <MessageParameters>
+               <Id>SPECIAL_SERVICE_TYPE</Id>
+               <Value>Appointment Delivery</Value>
+            </MessageParameters>
+         </Notifications>
+         <TransactionDetail>
+            <CustomerTransactionId>TC038_US_GROUND_HOME_DELIVERY with Your Packaging</CustomerTransactionId>
+         </TransactionDetail>
+         <Version>
+            <ServiceId>crs</ServiceId>
+            <Major>20</Major>
+            <Intermediate>0</Intermediate>
+            <Minor>0</Minor>
+         </Version>
+      </RateReply>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

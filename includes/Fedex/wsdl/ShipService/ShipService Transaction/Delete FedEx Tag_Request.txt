@@ -1,0 +1,52 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v19="http://fedex.com/ws/ship/v19">
+   <soapenv:Header></soapenv:Header>
+   <soapenv:Body>
+      <v19:DeleteTagRequest>
+         <v19:WebAuthenticationDetail>
+                  <v19:UserCredential>
+               <v19:Key>Input Your Information</v19:Key>
+               <v19:Password/>
+            </v19:UserCredential>
+         </v19:WebAuthenticationDetail>
+         <v19:ClientDetail>
+            <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+            <v19:MeterNumber>Input Your Information</v19:MeterNumber>
+            <v19:Localization>
+               <v19:LanguageCode>EN</v19:LanguageCode>
+               <v19:LocaleCode>ES</v19:LocaleCode>
+            </v19:Localization>
+         </v19:ClientDetail>
+         <v19:TransactionDetail>
+            <v19:CustomerTransactionId>DeleteTagRequest_v19</v19:CustomerTransactionId>
+            <v19:Localization>
+               <v19:LanguageCode>EN</v19:LanguageCode>
+               <v19:LocaleCode>ES</v19:LocaleCode>
+            </v19:Localization>
+         </v19:TransactionDetail>
+         <v19:Version>
+            <v19:ServiceId>ship</v19:ServiceId>
+            <v19:Major>19</v19:Major>
+            <v19:Intermediate>0</v19:Intermediate>
+            <v19:Minor>0</v19:Minor>
+         </v19:Version>
+         <v19:DispatchLocationId>NQAA</v19:DispatchLocationId>
+         <v19:DispatchDate>2015-12-29</v19:DispatchDate>
+         <v19:Payment>
+            <v19:PaymentType>SENDER</v19:PaymentType>
+            <v19:Payor>
+               <v19:ResponsibleParty>
+                  <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+                  <v19:Tins>
+                     <v19:TinType>BUSINESS_NATIONAL</v19:TinType>
+                     <v19:Number>123456</v19:Number>
+                  </v19:Tins>
+                  <v19:Contact>
+                     <v19:ContactId>123</v19:ContactId>
+                  </v19:Contact>
+               </v19:ResponsibleParty>
+            </v19:Payor>
+         </v19:Payment>
+         <v19:ConfirmationNumber>Input Your Information</v19:ConfirmationNumber>
+      </v19:DeleteTagRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

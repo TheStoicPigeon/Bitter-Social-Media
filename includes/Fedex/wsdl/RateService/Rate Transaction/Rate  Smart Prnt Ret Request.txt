@@ -1,0 +1,107 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://fedex.com/ws/rate/v20">
+   <SOAP-ENV:Body>
+      <RateRequest>
+         <WebAuthenticationDetail>
+            <UserCredential>
+               <Key>Input Your Information</Key>
+               <Password>Input Your Information</Password>
+            </UserCredential>
+         </WebAuthenticationDetail>
+         <ClientDetail>
+            <AccountNumber>Input Your Information</AccountNumber>
+            <MeterNumber>Input Your Information</MeterNumber>
+         </ClientDetail>
+         <TransactionDetail>
+            <CustomerTransactionId>TC062_SMART_POST with YourPackaging</CustomerTransactionId>
+         </TransactionDetail>
+         <Version>
+            <ServiceId>crs</ServiceId>
+            <Major>20</Major>
+            <Intermediate>0</Intermediate>
+            <Minor>0</Minor>
+         </Version>
+         <RequestedShipment>
+            <ShipTimestamp>2014-05-23T12:34:56-06:00</ShipTimestamp>
+            <DropoffType>REGULAR_PICKUP</DropoffType>
+            <ServiceType>SMART_POST</ServiceType>
+            <PackagingType>YOUR_PACKAGING</PackagingType>
+            <PreferredCurrency>USD</PreferredCurrency>
+            <Shipper>
+               <Contact>
+                  <PersonName>Input Your Information</PersonName>
+                  <CompanyName>Input Your Information</CompanyName>
+                  <PhoneNumber>Input Your Information</PhoneNumber>
+                  <EMailAddress>Input Your Information</EMailAddress>
+               </Contact>
+               <Address>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <City>MEMPHIS</City>
+                  <StateOrProvinceCode>TN</StateOrProvinceCode>
+                  <PostalCode>38101</PostalCode>
+                  <CountryCode>US</CountryCode>
+               </Address>
+            </Shipper>
+            <Recipient>
+               <Contact>
+                  <PersonName>Input Your Information</PersonName>
+                  <CompanyName>Input Your Information</CompanyName>
+                  <PhoneNumber>Input Your Information</PhoneNumber>
+                  <EMailAddress>Input Your Information</EMailAddress>
+               </Contact>
+               <Address>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <City>KAHULUI</City>
+                  <StateOrProvinceCode>HI</StateOrProvinceCode>
+                  <PostalCode>96790</PostalCode>
+                  <CountryCode>US</CountryCode>
+               </Address>
+            </Recipient>
+            <ShippingChargesPayment>
+               <PaymentType>SENDER</PaymentType>
+               <Payor>
+                  <ResponsibleParty>
+                     <AccountNumber>Input Your Information</AccountNumber>
+                  </ResponsibleParty>
+               </Payor>
+            </ShippingChargesPayment>
+            <SpecialServicesRequested>
+               <SpecialServiceTypes>RETURN_SHIPMENT</SpecialServiceTypes>
+               <ReturnShipmentDetail>
+                  <ReturnType>PRINT_RETURN_LABEL</ReturnType>
+                  <Rma>
+                     <Reason>String</Reason>
+                  </Rma>
+               </ReturnShipmentDetail>
+            </SpecialServicesRequested>
+            <SmartPostDetail>
+               <Indicia>PARCEL_SELECT</Indicia>
+               <AncillaryEndorsement>ADDRESS_CORRECTION</AncillaryEndorsement>
+               <HubId>5751</HubId>
+            </SmartPostDetail>
+            <RateRequestTypes>LIST</RateRequestTypes>
+            <PackageCount>1</PackageCount>
+            <RequestedPackageLineItems>
+               <SequenceNumber>11</SequenceNumber>
+               <GroupNumber>1</GroupNumber>
+               <GroupPackageCount>1</GroupPackageCount>
+               <Weight>
+                  <Units>LB</Units>
+                  <Value>20.0</Value>
+               </Weight>
+               <Dimensions>
+                  <Length>6</Length>
+                  <Width>4</Width>
+                  <Height>1</Height>
+                  <Units>IN</Units>
+               </Dimensions>
+               <CustomerReferences>
+                  <CustomerReferenceType>CUSTOMER_REFERENCE</CustomerReferenceType>
+                  <Value>TC001_01_PT1_ST01_PK01_SNDUS_RCPCA_POS</Value>
+               </CustomerReferences>
+            </RequestedPackageLineItems>
+         </RequestedShipment>
+      </RateRequest>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

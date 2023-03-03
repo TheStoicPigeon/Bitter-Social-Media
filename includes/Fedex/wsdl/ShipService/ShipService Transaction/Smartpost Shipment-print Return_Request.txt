@@ -1,0 +1,121 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://fedex.com/ws/ship/v19">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <ProcessShipmentRequest>
+         <WebAuthenticationDetail>
+            <UserCredential>
+               <Key>Input Your Information</Key>
+               <Password/>
+            </UserCredential>
+         </WebAuthenticationDetail>
+         <ClientDetail>
+            <AccountNumber>Input Your Information</AccountNumber>
+            <MeterNumber>Input Your Information</MeterNumber>
+         </ClientDetail>
+         <TransactionDetail>
+            <CustomerTransactionId>DE_PA</CustomerTransactionId>
+         </TransactionDetail>
+         <Version>
+            <ServiceId>ship</ServiceId>
+            <Major>19</Major>
+            <Intermediate>0</Intermediate>
+            <Minor>0</Minor>
+         </Version>
+         <RequestedShipment>
+            <ShipTimestamp>2015-12-29T09:30:47-05:00</ShipTimestamp>
+            <DropoffType>REGULAR_PICKUP</DropoffType>
+            <ServiceType>SMART_POST</ServiceType>
+            <PackagingType>YOUR_PACKAGING</PackagingType>
+            <Shipper>
+               <AccountNumber>Input Your Information</AccountNumber>
+               <Contact>
+                  <PersonName>Input Your Information</PersonName>
+                  <CompanyName>Input Your Information</CompanyName>
+                  <PhoneNumber>Input Your Information</PhoneNumber>
+               </Contact>
+               <Address>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <City>SMART POST FIVE DIGIT ACCT: 10110</City>
+                  <StateOrProvinceCode>SMART POST FIVE DIGIT ACCT: 10110</StateOrProvinceCode>
+                  <PostalCode>10110</PostalCode>
+                  <CountryCode>US</CountryCode>
+               </Address>
+            </Shipper>
+            <Recipient>
+               <AccountNumber>Input Your Information</AccountNumber>
+               <Contact>
+                  <PersonName>Input Your Information</PersonName>
+                  <CompanyName>Input Your Information</CompanyName>
+                  <PhoneNumber>Input Your Information</PhoneNumber>
+               </Contact>
+               <Address>
+                  <StreetLines>Recipient Address Line1</StreetLines>
+                  <City>Austin</City>
+                  <StateOrProvinceCode>AS</StateOrProvinceCode>
+                  <PostalCode>56950</PostalCode>
+                  <CountryCode>US</CountryCode>
+               </Address>
+            </Recipient>
+            <ShippingChargesPayment>
+               <PaymentType>SENDER</PaymentType>
+               <Payor>
+                  <ResponsibleParty>
+                     <AccountNumber>Input Your Information</AccountNumber>
+                     <Contact>
+                        <PersonName>Input Your Information</PersonName>
+                        <CompanyName>Input Your Information</CompanyName>
+                        <PhoneNumber>Input Your Information</PhoneNumber>
+                     </Contact>
+                     <Address>
+                        <StreetLines>Input Your Information</StreetLines>
+                        <StreetLines>Input Your Information</StreetLines>
+                        <City>SMART POST FIVE DIGIT ACCT: 10110</City>
+                        <StateOrProvinceCode>SMART POST FIVE DIGIT ACCT: 10110</StateOrProvinceCode>
+                        <PostalCode>10110</PostalCode>
+                        <CountryCode>NL</CountryCode>
+                     </Address>
+                  </ResponsibleParty>
+               </Payor>
+            </ShippingChargesPayment>
+           <SpecialServicesRequested>
+               <SpecialServiceTypes>RETURN_SHIPMENT</SpecialServiceTypes>
+               <ReturnShipmentDetail>
+                  <ReturnType>PRINT_RETURN_LABEL</ReturnType>
+                  <Rma>
+                     <Reason>TC131 WSVC 85x11 Png</Reason>
+                  </Rma>
+               </ReturnShipmentDetail>
+            </SpecialServicesRequested>
+            <SmartPostDetail>
+               <Indicia>PARCEL_RETURN</Indicia>
+               <AncillaryEndorsement>CARRIER_LEAVE_IF_NO_RESPONSE</AncillaryEndorsement>
+               <HubId>5531</HubId>
+               <CustomerManifestId>MANIFSETID</CustomerManifestId>
+            </SmartPostDetail>
+            <LabelSpecification>
+               <LabelFormatType>COMMON2D</LabelFormatType>
+               <ImageType>PNG</ImageType>
+               <LabelStockType>PAPER_7X4.75</LabelStockType>
+            </LabelSpecification>
+            <RateRequestTypes>LIST</RateRequestTypes>
+            <PackageCount>1</PackageCount>
+            <RequestedPackageLineItems>
+               <SequenceNumber>1</SequenceNumber>
+               <InsuredValue>
+                  <Currency>USD</Currency>
+                  <Amount>0.00</Amount>
+               </InsuredValue>
+               <Weight>
+                  <Units>LB</Units>
+                  <Value>1.2</Value>
+               </Weight>
+               <CustomerReferences>
+                  <CustomerReferenceType>RMA_ASSOCIATION</CustomerReferenceType>
+                  <Value>TC131 WSVC 85x11 Png</Value>
+               </CustomerReferences>
+            </RequestedPackageLineItems>
+         </RequestedShipment>
+      </ProcessShipmentRequest>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

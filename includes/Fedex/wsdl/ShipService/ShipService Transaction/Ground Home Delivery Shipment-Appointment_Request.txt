@@ -1,0 +1,107 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://fedex.com/ws/ship/v19">
+   <SOAP-ENV:Header/>
+   <SOAP-ENV:Body>
+      <ProcessShipmentRequest>
+         <WebAuthenticationDetail>
+            <UserCredential>
+               <Key>Input your Information</Key>
+               <Password/>
+            </UserCredential>
+         </WebAuthenticationDetail>
+         <ClientDetail>
+            <AccountNumber>Input your Information</AccountNumber>
+            <MeterNumber>Input your Information</MeterNumber>
+         </ClientDetail>
+         <TransactionDetail>
+            <CustomerTransactionId>Ship_International_basic</CustomerTransactionId>
+         </TransactionDetail>
+         <Version>
+            <ServiceId>ship</ServiceId>
+            <Major>19</Major>
+            <Intermediate>0</Intermediate>
+            <Minor>0</Minor>
+         </Version>
+         <RequestedShipment>
+            <ShipTimestamp>2015-12-29T12:34:56-06:00</ShipTimestamp>
+            <DropoffType>REGULAR_PICKUP</DropoffType>
+            <ServiceType>GROUND_HOME_DELIVERY</ServiceType>
+            <PackagingType>YOUR_PACKAGING</PackagingType>
+            <Shipper>
+               <AccountNumber>Input your Information</AccountNumber>
+               <Contact>
+                  <PersonName>Input your Information</PersonName>
+                  <CompanyName>Input your Information</CompanyName>
+                  <PhoneNumber>Input your Information</PhoneNumber>
+                  <EMailAddress>Input your Information</EMailAddress>
+               </Contact>
+               <Address>
+                  <StreetLines>Input your Information</StreetLines>
+                  <City>MEMPHIS</City>
+                  <StateOrProvinceCode>TN</StateOrProvinceCode>
+                  <PostalCode>38117</PostalCode>
+                  <CountryCode>US</CountryCode>
+                  <Residential>1</Residential>
+               </Address>
+            </Shipper>
+            <Recipient>
+               <AccountNumber>Input your Information</AccountNumber>
+               <Contact>
+                  <PersonName>Input your Information</PersonName>
+                  <CompanyName>Input your Information</CompanyName>
+                  <PhoneNumber>Input your Information</PhoneNumber>
+                  <EMailAddress>Input your Information</EMailAddress>
+               </Contact>
+               <Address>
+                  <StreetLines>Input your Information</StreetLines>
+                  <StreetLines>Input your Information</StreetLines>
+                  <City>Collierville</City>
+                  <StateOrProvinceCode>TN</StateOrProvinceCode>
+                  <PostalCode>38017</PostalCode>
+                  <CountryCode>US</CountryCode>
+                  <Residential>1</Residential>
+               </Address>
+            </Recipient>
+            <ShippingChargesPayment>
+               <PaymentType>SENDER</PaymentType>
+               <Payor>
+                  <ResponsibleParty>
+                     <AccountNumber>Input your Information</AccountNumber>
+                     <Contact>
+                        <PersonName>Input your Information</PersonName>
+                        <EMailAddress>Input your Information</EMailAddress>
+                     </Contact>
+                  </ResponsibleParty>
+               </Payor>
+            </ShippingChargesPayment>
+            <LabelSpecification>
+               <LabelFormatType>COMMON2D</LabelFormatType>
+               <ImageType>PNG</ImageType>
+            </LabelSpecification>
+            <RateRequestTypes>LIST</RateRequestTypes>
+            <PackageCount>1</PackageCount>
+            <RequestedPackageLineItems>
+               <SequenceNumber>1</SequenceNumber>
+               <Weight>
+                  <Units>LB</Units>
+                  <Value>40</Value>
+               </Weight>
+               <Dimensions>
+                  <Length>5</Length>
+                  <Width>5</Width>
+                  <Height>5</Height>
+                  <Units>IN</Units>
+               </Dimensions>
+               <PhysicalPackaging>BAG</PhysicalPackaging>
+               <ItemDescription>Book</ItemDescription>
+               <CustomerReferences>
+                  <CustomerReferenceType>CUSTOMER_REFERENCE</CustomerReferenceType>
+                  <Value>NAFTA_COO</Value>
+               </CustomerReferences>
+                <SpecialServicesRequested>
+                  <SpecialServiceTypes>APPOINTMENT_DELIVERY</SpecialServiceTypes>
+               </SpecialServicesRequested>
+            </RequestedPackageLineItems>
+         </RequestedShipment>
+      </ProcessShipmentRequest>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

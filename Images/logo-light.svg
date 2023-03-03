@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 729 873" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-410,-88.6936)">
+        <g transform="matrix(-2.77255,0,0,-2.68914,1656.67,864.758)">
+            <ellipse cx="378.332" cy="187.368" rx="70.811" ry="67.27" style="fill:rgb(245,242,207);stroke:black;stroke-width:1.02px;"/>
+        </g>
+        <g transform="matrix(1.85314,0,0,1.85314,-108.529,43.7403)">
+            <path d="M400.114,169.935C419.06,276.785 398.132,378.221 299.407,469.091C364.901,503.613 399.412,471.05 431.181,439.587C430.297,452.368 427.337,467.492 417.738,481.725C471.189,482.818 501.576,455 515.809,405.981C520.683,420.35 519.653,434.227 515.809,447.87C559.075,432.974 581.773,402.371 587.62,358.107C619.165,401.565 629.222,447.41 628.845,494.415C734.698,330.511 645.85,82.667 379.501,70.863C365.919,52.75 349.69,37.285 330.298,24.983L343.78,76.854C324.922,53.029 306.444,40.228 288.312,37.465C298.524,54.342 306.429,75.374 313.01,98.789C283.032,130.95 276.808,160.688 282.423,189.218L400.114,169.935Z" style="fill:url(#_Linear1);stroke:black;stroke-width:1.45px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+        </g>
+        <g transform="matrix(1.91036,0.15289,-0.146517,1.83073,-91.0275,0.0567943)">
+            <path d="M318.559,245.455C321.861,241.336 326.302,238.783 331.536,237.345C337.979,235.575 345.624,235.495 353.826,236.266C359.154,236.767 332.497,220.882 308.611,237.48C308.611,237.48 313.703,241.562 318.559,245.455Z" style="stroke:black;stroke-width:1px;stroke-linecap:round;stroke-miterlimit:1.5;"/>
+        </g>
+        <g transform="matrix(1.83905,-0.41069,0.41069,1.83905,-174.111,172.304)">
+            <ellipse cx="326.001" cy="161.254" rx="17.39" ry="6.17" style="fill:white;"/>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(206.13,145.764,-145.764,206.13,373.18,123)"><stop offset="0" style="stop-color:rgb(0,148,255);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(97,0,153);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

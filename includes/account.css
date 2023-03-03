@@ -1,0 +1,144 @@
+p {
+  margin:0!important;
+}
+
+h2, h3 {
+  margin:0!important;
+}
+
+.settings {
+  border-right:1px solid gray;
+  display:flex;
+  flex-direction:column;
+  height:fit-content;
+}
+
+
+.sub_settings {
+  padding:0;
+  padding-right: 2rem;
+  display:flex;
+  flex-direction:column;
+  height:fit-content;
+}
+
+.settings_header {
+  display:flex;
+  align-items:center;
+  height:4rem;
+  border-bottom:1px solid gray;
+  padding-left:1rem;
+}
+
+.sub_folder_header {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  height:4rem;
+  padding-left:1rem;
+}
+
+.settings_row {
+  padding-left:1rem;
+  padding-right:1rem;
+  display:flex;
+  border-bottom:1px solid gray;
+  width:inherit;
+  align-items:center;
+  height:3rem;
+  justify-content:space-between;
+}
+
+.settings_row:hover {
+  background-color:lightgray;
+}
+
+.sub_folder {
+  padding-right:1rem;
+  display:flex;
+  flex-direction:column;
+  width:inherit;
+  align-items:center;
+  min-height:3rem;
+  max-height:fit-content;
+  justify-content:space-between;
+}
+.option {
+  display:flex;
+  padding-left:1rem;
+  padding-right:1rem;
+  width:inherit;
+  align-items:center;
+  height:3rem;
+  justify-content:space-between;
+}
+.option:hover {
+  background-color:lightgray;
+}
+
+.settings_form_row {
+  display:flex;
+  justify-content: end;
+  align-items:baseline;
+}
+.settings_form_row input {
+  margin-left:1rem;
+  border:1px solid blue;
+  background-color: lightblue;
+  width:300px;
+}
+.option_result {
+  margin-left:2rem;
+  margin-top:2rem;
+  display:flex;
+  flex-direction:column;
+}
+
+.option_result h3 {
+  color: red;
+}
+
+.option_result form {
+  margin-top:2rem;
+}
+
+#pers_info_form {
+  margin-top:2rem;
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  width:fit-content;
+}
+
+#pers_info_form input {
+  background-color: white;
+  border: 1px solid black;
+}
+#province {
+    margin-left: 1rem;
+    border: 1px solid black;
+    background-color: white;
+    width: 300px;
+    height: fit-content;
+}
+#pers_info_submit {
+  background-color: #99a4e7!important;
+}
+
+#deleteAccount_sub {
+  margin:0 auto;
+  display:flex;
+  flex-direction: column;
+  width:fit-content;
+  align-items:center;
+}
+#delete_submit {
+  margin-top:5rem;
+  background-color:red;
+}
+#username  {
+  border:1px solid black;
+}
+#change_username_submit {
+  background-color: #99a4e7;
+}

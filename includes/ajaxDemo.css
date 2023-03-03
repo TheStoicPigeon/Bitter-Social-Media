@@ -1,0 +1,74 @@
+/* 	The following command resets the browser defaults.
+	This is important to level the playing field for all browser types. */
+html, body, * {
+	margin: 0;
+	padding: 0;
+}
+
+/*	Using a "wrapper" div is another strategy to increase cross-browser compatibility.
+	Since different browsers treat the <body> element uniquely,
+	Putting all markup inside a wrapper div will allow you to more easily style your page.
+	
+	Setting the width to 60%, then left and right margins to 20%
+	will center the div on the screen.
+	When you use two values for a margin or padding property, 
+	the first one represents top and bottom,
+	the second represents left and right.
+*/
+#wrapper {
+	width: 60%;
+	margin: 0 20%;
+}
+
+div#submit_a_comment form {
+	margin-left: 60px;
+}
+
+div.user_comment {
+	width: 440px;
+	padding: 15px;
+	margin: 5px 0;
+	border: 3px solid #CCC;
+}
+
+
+p#submit_comment_link {
+	width: 440px;
+	padding: 15px;
+	margin: 5px 0;
+	color: blue;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+
+p#comment_submitted {
+	width: 440px;
+	padding: 15px;
+	margin: 5px 0;
+	color: blue;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+h3 {
+	padding: 15px 0 0 15px;
+	width: 60%;
+}
+
+span.user_comment_name {
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-variant: small-caps;
+}
+
+div.user_comment p {
+	border-bottom: 1px solid #CCC;
+}
+
+div.user_comment p.user_comment_text {
+	border-bottom: none;
+	margin-top: 15px;
+	font-family: Arial;
+	text-indent: 15px;
+}

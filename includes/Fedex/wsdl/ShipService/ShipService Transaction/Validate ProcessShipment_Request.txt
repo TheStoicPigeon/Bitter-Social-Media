@@ -1,0 +1,144 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v19="http://fedex.com/ws/ship/v19">
+   <soapenv:Header></soapenv:Header>
+   <soapenv:Body>
+      <v19:ValidateShipmentRequest>
+      <v19:WebAuthenticationDetail>
+            <v19:UserCredential>
+               <v19:Key>Input Your Information</v19:Key>
+               <v19:Password/>
+            </v19:UserCredential>
+         </v19:WebAuthenticationDetail>
+         <v19:ClientDetail>
+           <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+            <v19:MeterNumber>Input Your Information</v19:MeterNumber>
+         </v19:ClientDetail>
+         <v19:TransactionDetail>
+            <v19:CustomerTransactionId>Input Your Information</v19:CustomerTransactionId>
+         </v19:TransactionDetail>
+         <v19:Version>
+            <v19:ServiceId>ship</v19:ServiceId>
+            <v19:Major>19</v19:Major>
+            <v19:Intermediate>0</v19:Intermediate>
+            <v19:Minor>0</v19:Minor>
+         </v19:Version>
+         <v19:RequestedShipment>
+            <v19:ShipTimestamp>2015-12-29T12:34:56-06:00</v19:ShipTimestamp>
+            <v19:DropoffType>REGULAR_PICKUP</v19:DropoffType>
+            <v19:ServiceType>INTERNATIONAL_PRIORITY</v19:ServiceType>
+            <v19:PackagingType>YOUR_PACKAGING</v19:PackagingType>
+            <v19:PreferredCurrency>USD</v19:PreferredCurrency>
+            <v19:Shipper>
+               <v19:Contact>
+                   <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                  <v19:EMailAddress>Input Your Information</v19:EMailAddress>
+               </v19:Contact>
+               <v19:Address>
+                <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>MEMPHIS</v19:City>
+                  <v19:StateOrProvinceCode>TN</v19:StateOrProvinceCode>
+                  <v19:PostalCode>38101</v19:PostalCode>
+                  <v19:CountryCode>US</v19:CountryCode>
+               </v19:Address>
+            </v19:Shipper>
+            <v19:Recipient>
+               <v19:Contact>
+                  <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                  <v19:EMailAddress>Input Your Information</v19:EMailAddress>
+               </v19:Contact>
+               <v19:Address>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>RICHMOND</v19:City>
+                  <v19:StateOrProvinceCode>BC</v19:StateOrProvinceCode>
+                  <v19:PostalCode>V7C4v7</v19:PostalCode>
+                  <v19:CountryCode>CA</v19:CountryCode>
+               </v19:Address>
+            </v19:Recipient>
+            <v19:ShippingChargesPayment>
+               <v19:PaymentType>SENDER</v19:PaymentType>
+               <v19:Payor>
+                  <v19:ResponsibleParty>
+                     <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+                     <v19:Contact>
+                        <v19:ContactId>12345</v19:ContactId>
+                        <v19:PersonName>Input Your Information</v19:PersonName>
+                     </v19:Contact>
+                  </v19:ResponsibleParty>
+               </v19:Payor>
+            </v19:ShippingChargesPayment>
+            <v19:CustomsClearanceDetail>
+               <v19:DutiesPayment>
+                  <v19:PaymentType>SENDER</v19:PaymentType>
+                  <v19:Payor>
+                     <v19:ResponsibleParty>
+                        <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+                           <v19:Contact>
+                           <v19:ContactId>12345</v19:ContactId>
+                           <v19:PersonName>Input Your Information</v19:PersonName>
+                        </v19:Contact>
+                     </v19:ResponsibleParty>
+                  </v19:Payor>
+               </v19:DutiesPayment>
+               <v19:DocumentContent>DOCUMENTS_ONLY</v19:DocumentContent>
+               <v19:CustomsValue>
+                  <v19:Currency>USD</v19:Currency>
+                  <v19:Amount>100.00</v19:Amount>
+               </v19:CustomsValue>
+               <v19:CommercialInvoice>
+                  <v19:TermsOfSale>FOB</v19:TermsOfSale>
+               </v19:CommercialInvoice>
+               <v19:Commodities>
+                  <v19:NumberOfPieces>1</v19:NumberOfPieces>
+                  <v19:Description>ABCD</v19:Description>
+                  <v19:CountryOfManufacture>US</v19:CountryOfManufacture>
+                  <v19:Weight>
+                     <v19:Units>LB</v19:Units>
+                     <v19:Value>1.0</v19:Value>
+                  </v19:Weight>
+                  <v19:Quantity>1</v19:Quantity>
+                  <v19:QuantityUnits>cm</v19:QuantityUnits>
+                  <v19:UnitPrice>
+                     <v19:Currency>USD</v19:Currency>
+                     <v19:Amount>1.000000</v19:Amount>
+                  </v19:UnitPrice>
+                  <v19:CustomsValue>
+                     <v19:Currency>USD</v19:Currency>
+                     <v19:Amount>100.000000</v19:Amount>
+                  </v19:CustomsValue>
+               </v19:Commodities>
+               <v19:ExportDetail>
+                  <v19:ExportComplianceStatement>30.37(f)</v19:ExportComplianceStatement>
+               </v19:ExportDetail>
+            </v19:CustomsClearanceDetail>
+            <v19:LabelSpecification>
+               <v19:LabelFormatType>COMMON2D</v19:LabelFormatType>
+               <v19:ImageType>PNG</v19:ImageType>
+               <v19:LabelStockType>PAPER_7X4.75</v19:LabelStockType>
+            </v19:LabelSpecification>
+            <v19:RateRequestTypes>LIST</v19:RateRequestTypes>
+            <v19:PackageCount>1</v19:PackageCount>
+            <v19:RequestedPackageLineItems>
+               <v19:SequenceNumber>1</v19:SequenceNumber>
+               <v19:Weight>
+                  <v19:Units>LB</v19:Units>
+                  <v19:Value>20.0</v19:Value>
+               </v19:Weight>
+               <v19:Dimensions>
+                  <v19:Length>12</v19:Length>
+                  <v19:Width>12</v19:Width>
+                  <v19:Height>12</v19:Height>
+                  <v19:Units>IN</v19:Units>
+               </v19:Dimensions>
+               <v19:CustomerReferences>
+                  <v19:CustomerReferenceType>CUSTOMER_REFERENCE</v19:CustomerReferenceType>
+                  <v19:Value>string</v19:Value>
+               </v19:CustomerReferences>
+            </v19:RequestedPackageLineItems>
+         </v19:RequestedShipment>
+      </v19:ValidateShipmentRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

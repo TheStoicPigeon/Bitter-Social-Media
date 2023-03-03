@@ -1,0 +1,102 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v19="http://fedex.com/ws/ship/v19">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v19:ProcessShipmentRequest>
+         <v19:WebAuthenticationDetail>
+            <v19:UserCredential>
+               <v19:Key>Input Your Information</v19:Key>
+               <v19:Password/>
+            </v19:UserCredential>
+         </v19:WebAuthenticationDetail>
+         <v19:ClientDetail>
+            <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+            <v19:MeterNumber>Input Your Information</v19:MeterNumber>
+         </v19:ClientDetail>
+         <v19:TransactionDetail>
+            <v19:CustomerTransactionId>Ship_International_basic</v19:CustomerTransactionId>
+         </v19:TransactionDetail>
+         <v19:Version>
+            <v19:ServiceId>ship</v19:ServiceId>
+            <v19:Major>19</v19:Major>
+            <v19:Intermediate>0</v19:Intermediate>
+            <v19:Minor>0</v19:Minor>
+         </v19:Version>
+         <v19:RequestedShipment>
+            <v19:ShipTimestamp>2015-12-29T12:34:56-06:00</v19:ShipTimestamp>
+            <v19:DropoffType>REGULAR_PICKUP</v19:DropoffType>
+            <v19:ServiceType>FEDEX_1_DAY_FREIGHT</v19:ServiceType>
+            <v19:PackagingType>YOUR_PACKAGING</v19:PackagingType>
+            <v19:Shipper>
+               <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+               <v19:Contact>
+                  <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                  <v19:EMailAddress>Input Your Information</v19:EMailAddress>
+               </v19:Contact>
+               <v19:Address>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>MEMPHIS</v19:City>
+                  <v19:StateOrProvinceCode>TN</v19:StateOrProvinceCode>
+                  <v19:PostalCode>38117</v19:PostalCode>
+                  <v19:CountryCode>US</v19:CountryCode>
+               </v19:Address>
+            </v19:Shipper>
+            <v19:Recipient>
+               <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+               <v19:Contact>
+                  <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                  <v19:EMailAddress>Input Your Information</v19:EMailAddress>
+               </v19:Contact>
+               <v19:Address>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>Collierville</v19:City>
+                  <v19:StateOrProvinceCode>TN</v19:StateOrProvinceCode>
+                  <v19:PostalCode>38017</v19:PostalCode>
+                  <v19:CountryCode>US</v19:CountryCode>
+               </v19:Address>
+            </v19:Recipient>
+            <v19:ShippingChargesPayment>
+               <v19:PaymentType>SENDER</v19:PaymentType>
+               <v19:Payor>
+                  <v19:ResponsibleParty>
+                     <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+                     <v19:Contact>
+                        <v19:PersonName>Input Your Information</v19:PersonName>
+                        <v19:EMailAddress>Input Your Information</v19:EMailAddress>
+                     </v19:Contact>
+                  </v19:ResponsibleParty>
+               </v19:Payor>
+            </v19:ShippingChargesPayment>
+            <v19:LabelSpecification>
+               <v19:LabelFormatType>COMMON2D</v19:LabelFormatType>
+               <v19:ImageType>PNG</v19:ImageType>
+            </v19:LabelSpecification>
+            <v19:RateRequestTypes>LIST</v19:RateRequestTypes>
+            <v19:PackageCount>1</v19:PackageCount>
+            <v19:RequestedPackageLineItems>
+               <v19:SequenceNumber>1</v19:SequenceNumber>
+               <v19:Weight>
+                  <v19:Units>LB</v19:Units>
+                  <v19:Value>40</v19:Value>
+               </v19:Weight>
+               <v19:Dimensions>
+                  <v19:Length>45</v19:Length>
+                  <v19:Width>45</v19:Width>
+                  <v19:Height>45</v19:Height>
+                  <v19:Units>IN</v19:Units>
+               </v19:Dimensions>
+               <v19:PhysicalPackaging>BAG</v19:PhysicalPackaging>
+               <v19:ItemDescription>Book</v19:ItemDescription>
+               <v19:CustomerReferences>
+                  <v19:CustomerReferenceType>CUSTOMER_REFERENCE</v19:CustomerReferenceType>
+                  <v19:Value>NAFTA_COO</v19:Value>
+               </v19:CustomerReferences>
+            </v19:RequestedPackageLineItems>
+         </v19:RequestedShipment>
+      </v19:ProcessShipmentRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,37 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v19="http://fedex.com/ws/ship/v19">
+   <soapenv:Header></soapenv:Header>
+   <soapenv:Body>
+      <v19:DeleteShipmentRequest>
+         <v19:WebAuthenticationDetail>
+            <v19:UserCredential>
+                <v19:Key>Input Your Informaion</v19:Key>
+               <v19:Password/>
+            </v19:UserCredential>
+         </v19:WebAuthenticationDetail>
+         <v19:ClientDetail>
+              <v19:AccountNumber>Input Your Informaion</v19:AccountNumber>
+            <v19:MeterNumber>Input Your Informaion</v19:MeterNumber>
+            <v19:Localization>
+               <v19:LanguageCode>EN</v19:LanguageCode>
+               <v19:LocaleCode>EM</v19:LocaleCode>
+            </v19:Localization>
+         </v19:ClientDetail>
+         <v19:TransactionDetail>
+            <v19:CustomerTransactionId>DeleteShipmentRequest_v19</v19:CustomerTransactionId>
+         </v19:TransactionDetail>
+         <v19:Version>
+            <v19:ServiceId>ship</v19:ServiceId>
+            <v19:Major>19</v19:Major>
+            <v19:Intermediate>0</v19:Intermediate>
+            <v19:Minor>0</v19:Minor>
+         </v19:Version>
+        <v19:ShipTimestamp>2015-12-29T12:34:56-06:00</v19:ShipTimestamp>
+         <v19:TrackingId>
+            <v19:TrackingIdType>EXPRESS</v19:TrackingIdType>
+            <v19:FormId>Input Your Informaion</v19:FormId>
+            <v19:TrackingNumber>Input Your Informaion</v19:TrackingNumber>
+         </v19:TrackingId>
+         <v19:DeletionControl>DELETE_ALL_PACKAGES</v19:DeletionControl>
+      </v19:DeleteShipmentRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

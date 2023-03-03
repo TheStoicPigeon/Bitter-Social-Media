@@ -1,0 +1,115 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v19="http://fedex.com/ws/ship/v19">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v19:ProcessTagRequest>
+         <v19:WebAuthenticationDetail>
+            <v19:UserCredential>
+               <v19:Key>Input Your Information</v19:Key>
+               <v19:Password/>
+            </v19:UserCredential>
+         </v19:WebAuthenticationDetail>
+         <v19:ClientDetail>
+             <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+            <v19:MeterNumber>Input Your Information</v19:MeterNumber>
+         </v19:ClientDetail>
+         <v19:TransactionDetail>
+            <v19:CustomerTransactionId>ProcessTag_v19</v19:CustomerTransactionId>
+         </v19:TransactionDetail>
+         <v19:Version>
+            <v19:ServiceId>ship</v19:ServiceId>
+            <v19:Major>19</v19:Major>
+            <v19:Intermediate>0</v19:Intermediate>
+            <v19:Minor>0</v19:Minor>
+         </v19:Version>
+         <v19:RequestedShipment>
+           <v19:ShipTimestamp>2015-12-29T15:30:47-05:00</v19:ShipTimestamp>
+            <v19:DropoffType>REGULAR_PICKUP</v19:DropoffType>
+            <v19:ServiceType>FEDEX_2_DAY_AM</v19:ServiceType>
+            <v19:PackagingType>YOUR_PACKAGING</v19:PackagingType>
+            <v19:TotalWeight>
+               <v19:Units>LB</v19:Units>
+               <v19:Value>149.0</v19:Value>
+            </v19:TotalWeight>
+            <v19:TotalInsuredValue>
+               <v19:Currency>USD</v19:Currency>
+               <v19:Amount>100.00</v19:Amount>
+            </v19:TotalInsuredValue>
+            <v19:Shipper>
+               <v19:Contact>
+                  <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                  <v19:EMailAddress>Input Your Information</v19:EMailAddress>
+               </v19:Contact>
+               <v19:Address>
+                   <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>MEMPHIS</v19:City>
+                  <v19:StateOrProvinceCode>TN</v19:StateOrProvinceCode>
+                  <v19:PostalCode>38101</v19:PostalCode>
+                  <v19:CountryCode>US</v19:CountryCode>
+               </v19:Address>
+            </v19:Shipper>
+            <v19:Recipient>
+               <v19:Contact>
+                 <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                  <v19:EMailAddress>Input Your Information</v19:EMailAddress>
+               </v19:Contact>
+               <v19:Address>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>Memphis</v19:City>
+                  <v19:StateOrProvinceCode>TN</v19:StateOrProvinceCode>
+                  <v19:PostalCode>38018</v19:PostalCode>
+                  <v19:CountryCode>US</v19:CountryCode>
+               </v19:Address>
+            </v19:Recipient>
+            <v19:ShippingChargesPayment>
+               <v19:PaymentType>SENDER</v19:PaymentType>
+               <v19:Payor>
+                  <v19:ResponsibleParty>
+                     <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+                     <v19:Contact>
+                        <v19:ContactId/>
+                        <v19:PersonName/>
+                        <v19:CompanyName/>
+                        <v19:PhoneNumber/>
+                        <v19:EMailAddress/>
+                     </v19:Contact>
+                  </v19:ResponsibleParty>
+               </v19:Payor>
+            </v19:ShippingChargesPayment>
+            <v19:SpecialServicesRequested>
+               <v19:SpecialServiceTypes>RETURN_SHIPMENT</v19:SpecialServiceTypes>
+               <v19:ReturnShipmentDetail>
+                  <v19:ReturnType>FEDEX_TAG</v19:ReturnType>
+               </v19:ReturnShipmentDetail>
+            </v19:SpecialServicesRequested>
+            <v19:PickupDetail>
+               <v19:ReadyDateTime>2015-12-29T12:30:47-05:00</v19:ReadyDateTime>
+               <v19:LatestPickupDateTime>2015-12-29T14:30:47-05:00</v19:LatestPickupDateTime>
+               <v19:CourierInstructions>HandleWithCare</v19:CourierInstructions>
+            </v19:PickupDetail>
+            <v19:LabelSpecification>
+               <v19:LabelFormatType>COMMON2D</v19:LabelFormatType>
+               <v19:LabelStockType>PAPER_4X6</v19:LabelStockType>
+               <v19:LabelPrintingOrientation>BOTTOM_EDGE_OF_TEXT_FIRST</v19:LabelPrintingOrientation>
+            </v19:LabelSpecification>
+            <v19:RateRequestTypes>LIST</v19:RateRequestTypes>
+            <v19:PackageCount>1</v19:PackageCount>
+            <v19:RequestedPackageLineItems>
+               <v19:SequenceNumber>1</v19:SequenceNumber>
+               <v19:InsuredValue>
+                  <v19:Currency>USD</v19:Currency>
+                  <v19:Amount>100.00</v19:Amount>
+               </v19:InsuredValue>
+               <v19:Weight>
+                  <v19:Units>LB</v19:Units>
+                  <v19:Value>50.00</v19:Value>
+               </v19:Weight>
+               <v19:ItemDescription>String</v19:ItemDescription>
+            </v19:RequestedPackageLineItems>
+         </v19:RequestedShipment>
+      </v19:ProcessTagRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

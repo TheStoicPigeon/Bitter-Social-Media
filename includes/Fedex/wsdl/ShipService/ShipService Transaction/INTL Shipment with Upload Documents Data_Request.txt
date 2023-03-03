@@ -1,0 +1,219 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v19="http://fedex.com/ws/ship/v19">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <v19:ProcessShipmentRequest>
+         <v19:WebAuthenticationDetail>
+            <v19:UserCredential>
+               <v19:Key>Input Your Information</v19:Key>
+               <v19:Password/>
+            </v19:UserCredential>
+         </v19:WebAuthenticationDetail>
+         <v19:ClientDetail>
+            <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+            <v19:MeterNumber>Input Your Information</v19:MeterNumber>
+         </v19:ClientDetail>
+         <v19:TransactionDetail>
+            <v19:CustomerTransactionId>ProcessShip_Basic</v19:CustomerTransactionId>
+         </v19:TransactionDetail>
+         <v19:Version>
+            <v19:ServiceId>ship</v19:ServiceId>
+            <v19:Major>19</v19:Major>
+            <v19:Intermediate>0</v19:Intermediate>
+            <v19:Minor>0</v19:Minor>
+         </v19:Version>
+         <v19:RequestedShipment>
+            <v19:ShipTimestamp>2015-12-29T15:46:24-06:00</v19:ShipTimestamp>
+            <v19:DropoffType>REGULAR_PICKUP</v19:DropoffType>
+            <v19:ServiceType>FEDEX_GROUND</v19:ServiceType>
+            <v19:PackagingType>YOUR_PACKAGING</v19:PackagingType>
+            <v19:Shipper>
+               <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+               <v19:Contact>
+                  <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                  <v19:EMailAddress/>
+               </v19:Contact>
+               <v19:Address>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>Pittsburgh</v19:City>
+                  <v19:StateOrProvinceCode>PA</v19:StateOrProvinceCode>
+                  <v19:PostalCode>15108</v19:PostalCode>
+                  <v19:CountryCode>US</v19:CountryCode>
+               </v19:Address>
+            </v19:Shipper>
+            <v19:Recipient>
+               <v19:Contact>
+                  <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                  <v19:EMailAddress>Input Your Information</v19:EMailAddress>
+               </v19:Contact>
+               <v19:Address>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>RECIPIENT CITY CAN20</v19:City>
+                  <v19:StateOrProvinceCode>ON</v19:StateOrProvinceCode>
+                  <v19:PostalCode>N1R7J5</v19:PostalCode>
+                  <v19:CountryCode>CA</v19:CountryCode>
+               </v19:Address>
+            </v19:Recipient>
+            <v19:Origin>
+               <v19:Contact>
+                  <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                  <v19:EMailAddress/>
+               </v19:Contact>
+               <v19:Address>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>Pittsburgh</v19:City>
+                  <v19:StateOrProvinceCode>PA</v19:StateOrProvinceCode>
+                  <v19:PostalCode>15108</v19:PostalCode>
+                  <v19:CountryCode>US</v19:CountryCode>
+               </v19:Address>
+            </v19:Origin>
+            <v19:ShippingChargesPayment>
+               <v19:PaymentType>SENDER</v19:PaymentType>
+               <v19:Payor>
+                  <v19:ResponsibleParty>
+                     <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+                     <v19:Contact>
+                        <v19:PersonName>Input Your Information</v19:PersonName>
+                        <v19:CompanyName>Input Your Information</v19:CompanyName>
+                        <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                        <v19:EMailAddress/>
+                     </v19:Contact>
+                     <v19:Address>
+                        <v19:StreetLines>Input Your Information</v19:StreetLines>
+                        <v19:StreetLines>Input Your Information</v19:StreetLines>
+                        <v19:City>Pittsburgh</v19:City>
+                        <v19:StateOrProvinceCode>PA</v19:StateOrProvinceCode>
+                        <v19:PostalCode>15108</v19:PostalCode>
+                        <v19:CountryCode>US</v19:CountryCode>
+                     </v19:Address>
+                  </v19:ResponsibleParty>
+               </v19:Payor>
+            </v19:ShippingChargesPayment>
+           <v19:SpecialServicesRequested>
+               <v19:SpecialServiceTypes>ELECTRONIC_TRADE_DOCUMENTS</v19:SpecialServiceTypes>
+               <v19:EtdDetail>
+                  <v19:DocumentReferences>
+                     <v19:LineNumber>1</v19:LineNumber>
+                     <v19:CustomerReference>Customer_Reference1_For_DocumentReference</v19:CustomerReference>
+                     <v19:DocumentProducer>CUSTOMER</v19:DocumentProducer>
+                     <v19:DocumentType>CERTIFICATE_OF_ORIGIN</v19:DocumentType>
+                     <v19:DocumentId>090493e180971129</v19:DocumentId>
+                     <v19:DocumentIdProducer>CUSTOMER</v19:DocumentIdProducer>
+                  </v19:DocumentReferences>
+               </v19:EtdDetail>
+            </v19:SpecialServicesRequested>
+            <v19:CustomsClearanceDetail>
+               <v19:ImporterOfRecord>
+                  <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+                  <v19:Contact>
+                     <v19:PersonName>Input Your Information</v19:PersonName>
+                     <v19:CompanyName>Input Your Information</v19:CompanyName>
+                     <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                     <v19:EMailAddress/>
+                  </v19:Contact>
+                  <v19:Address>
+                     <v19:StreetLines>Input Your Information</v19:StreetLines>
+                     <v19:StreetLines>Input Your Information</v19:StreetLines>
+                     <v19:City>Pittsburgh</v19:City>
+                     <v19:StateOrProvinceCode>PA</v19:StateOrProvinceCode>
+                     <v19:PostalCode>15108</v19:PostalCode>
+                     <v19:CountryCode>US</v19:CountryCode>
+                  </v19:Address>
+               </v19:ImporterOfRecord>
+               <v19:DutiesPayment>
+                  <v19:PaymentType>SENDER</v19:PaymentType>
+                  <v19:Payor>
+                     <v19:ResponsibleParty>
+                        <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+                        <v19:Contact>
+                           <v19:PersonName>Input Your Information</v19:PersonName>
+                           <v19:CompanyName>Input Your Information</v19:CompanyName>
+                           <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                           <v19:EMailAddress/>
+                        </v19:Contact>
+                        <v19:Address>
+                           <v19:StreetLines>Input Your Information</v19:StreetLines>
+                           <v19:StreetLines>Input Your Information</v19:StreetLines>
+                           <v19:City>Pittsburgh</v19:City>
+                           <v19:StateOrProvinceCode>PA</v19:StateOrProvinceCode>
+                           <v19:PostalCode>15108</v19:PostalCode>
+                           <v19:CountryCode>US</v19:CountryCode>
+                        </v19:Address>
+                     </v19:ResponsibleParty>
+                  </v19:Payor>
+               </v19:DutiesPayment>
+               <v19:DocumentContent>DOCUMENTS_ONLY</v19:DocumentContent>
+               <v19:CustomsValue>
+                  <v19:Currency>USD</v19:Currency>
+                  <v19:Amount>100</v19:Amount>
+               </v19:CustomsValue>
+               <v19:CommercialInvoice>
+                  <v19:Comments>GodKnows</v19:Comments>
+                  <v19:PaymentTerms>string</v19:PaymentTerms>
+                  <v19:CustomerReferences>
+                     <v19:CustomerReferenceType>CUSTOMER_REFERENCE</v19:CustomerReferenceType>
+                     <v19:Value>TC008</v19:Value>
+                  </v19:CustomerReferences>
+                  <v19:TermsOfSale>FOB</v19:TermsOfSale>
+               </v19:CommercialInvoice>
+               <v19:Commodities>
+                  <v19:Name>BOOKS</v19:Name>
+                  <v19:NumberOfPieces>1</v19:NumberOfPieces>
+                  <v19:Description>Books</v19:Description>
+                  <v19:CountryOfManufacture>US</v19:CountryOfManufacture>
+                  <v19:Weight>
+                     <v19:Units>LB</v19:Units>
+                     <v19:Value>10</v19:Value>
+                  </v19:Weight>
+                  <v19:Quantity>1</v19:Quantity>
+                  <v19:QuantityUnits>EA</v19:QuantityUnits>
+                  <v19:UnitPrice>
+                     <v19:Currency>USD</v19:Currency>
+                     <v19:Amount>10.00</v19:Amount>
+                  </v19:UnitPrice>
+                  <v19:CustomsValue>
+                     <v19:Currency>USD</v19:Currency>
+                     <v19:Amount>100</v19:Amount>
+                  </v19:CustomsValue>
+               </v19:Commodities>
+            </v19:CustomsClearanceDetail>
+            <v19:LabelSpecification>
+               <v19:LabelFormatType>COMMON2D</v19:LabelFormatType>
+               <v19:ImageType>PDF</v19:ImageType>
+               <v19:LabelStockType>PAPER_8.5X11_TOP_HALF_LABEL</v19:LabelStockType>
+            </v19:LabelSpecification>
+            <v19:RateRequestTypes>LIST</v19:RateRequestTypes>
+            <v19:PackageCount>1</v19:PackageCount>
+            <v19:RequestedPackageLineItems>
+               <v19:SequenceNumber>1</v19:SequenceNumber>
+               <v19:InsuredValue>
+                  <v19:Currency>USD</v19:Currency>
+                  <v19:Amount>100</v19:Amount>
+               </v19:InsuredValue>
+               <v19:Weight>
+                  <v19:Units>LB</v19:Units>
+                  <v19:Value>30</v19:Value>
+               </v19:Weight>
+               <v19:Dimensions>
+                  <v19:Length>20</v19:Length>
+                  <v19:Width>15</v19:Width>
+                  <v19:Height>20</v19:Height>
+                  <v19:Units>IN</v19:Units>
+               </v19:Dimensions>
+               <v19:CustomerReferences>
+                  <v19:CustomerReferenceType>CUSTOMER_REFERENCE</v19:CustomerReferenceType>
+                  <v19:Value>TC008</v19:Value>
+               </v19:CustomerReferences>
+            </v19:RequestedPackageLineItems>
+         </v19:RequestedShipment>
+      </v19:ProcessShipmentRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

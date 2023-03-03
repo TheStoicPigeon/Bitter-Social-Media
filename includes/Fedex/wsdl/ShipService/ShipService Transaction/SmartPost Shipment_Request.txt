@@ -1,0 +1,111 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v19="http://fedex.com/ws/ship/v19">
+   <soapenv:Header></soapenv:Header>
+   <soapenv:Body>
+      <v19:ProcessShipmentRequest>
+         <v19:WebAuthenticationDetail>
+            <v19:UserCredential>
+               <v19:Key>Input Your Information</v19:Key>
+               <v19:Password/>
+            </v19:UserCredential>
+         </v19:WebAuthenticationDetail>
+         <v19:ClientDetail>
+            <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+            <v19:MeterNumber>Input Your Information</v19:MeterNumber>
+         </v19:ClientDetail>
+         <v19:TransactionDetail>
+            <v19:CustomerTransactionId>IMPB On Media NO Delcon</v19:CustomerTransactionId>
+         </v19:TransactionDetail>
+         <v19:Version>
+            <v19:ServiceId>ship</v19:ServiceId>
+            <v19:Major>19</v19:Major>
+            <v19:Intermediate>0</v19:Intermediate>
+            <v19:Minor>0</v19:Minor>
+         </v19:Version>
+         <v19:RequestedShipment>
+            <v19:ShipTimestamp>2015-12-29T12:34:56-06:00</v19:ShipTimestamp>
+            <v19:DropoffType>REGULAR_PICKUP</v19:DropoffType>
+            <v19:ServiceType>SMART_POST</v19:ServiceType>
+            <v19:PackagingType>YOUR_PACKAGING</v19:PackagingType>
+            <v19:Shipper>
+               <v19:Contact>
+                  <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+               </v19:Contact>
+               <v19:Address>
+                 <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>NEW BERLIN</v19:City>
+                  <v19:StateOrProvinceCode>WI</v19:StateOrProvinceCode>
+                  <v19:PostalCode>53151</v19:PostalCode>
+                  <v19:CountryCode>US</v19:CountryCode>
+               </v19:Address>
+            </v19:Shipper>
+            <v19:Recipient>
+                 <v19:Contact>
+                  <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+               </v19:Contact>
+               <v19:Address>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:City>Cape Neddick</v19:City>
+                  <v19:StateOrProvinceCode>ME</v19:StateOrProvinceCode>
+                  <v19:PostalCode>03902</v19:PostalCode>
+                  <v19:CountryCode>US</v19:CountryCode>
+               </v19:Address>
+            </v19:Recipient>
+            <v19:ShippingChargesPayment>
+               <v19:PaymentType>SENDER</v19:PaymentType>
+               <v19:Payor>
+                  <v19:ResponsibleParty>
+                     <v19:AccountNumber>Input Your Information</v19:AccountNumber>
+                     <v19:Contact>
+                       <v19:PersonName>Input Your Information</v19:PersonName>
+                  <v19:CompanyName>Input Your Information</v19:CompanyName>
+                  <v19:PhoneNumber>Input Your Information</v19:PhoneNumber>
+                     </v19:Contact>
+                     <v19:Address>
+                         <v19:StreetLines>Input Your Information</v19:StreetLines>
+                  <v19:StreetLines>Input Your Information</v19:StreetLines>
+                        <v19:City>NEW BERLIN</v19:City>
+                        <v19:StateOrProvinceCode>WI</v19:StateOrProvinceCode>
+                        <v19:PostalCode>53151</v19:PostalCode>
+                        <v19:CountryCode>US</v19:CountryCode>
+                     </v19:Address>
+                  </v19:ResponsibleParty>
+               </v19:Payor>
+            </v19:ShippingChargesPayment>
+            <v19:SmartPostDetail>
+               <v19:Indicia>PARCEL_SELECT</v19:Indicia>
+               <v19:AncillaryEndorsement>CARRIER_LEAVE_IF_NO_RESPONSE</v19:AncillaryEndorsement>
+               <v19:HubId>5531</v19:HubId>
+               <v19:CustomerManifestId>MANIFSETID</v19:CustomerManifestId>
+            </v19:SmartPostDetail>
+            <v19:LabelSpecification>
+               <v19:LabelFormatType>COMMON2D</v19:LabelFormatType>
+               <v19:ImageType>PNG</v19:ImageType>
+               <v19:LabelStockType>PAPER_7X4.75</v19:LabelStockType>
+               <v19:CustomerSpecifiedDetail>
+                  <v19:MaskedData>SECONDARY_BARCODE</v19:MaskedData>
+               </v19:CustomerSpecifiedDetail>
+            </v19:LabelSpecification>
+            <v19:RateRequestTypes>LIST</v19:RateRequestTypes>
+            <v19:PackageCount>1</v19:PackageCount>
+            <v19:RequestedPackageLineItems>
+               <v19:SequenceNumber>1</v19:SequenceNumber>
+               <v19:InsuredValue>
+                  <v19:Currency>USD</v19:Currency>
+                  <v19:Amount>0.00</v19:Amount>
+               </v19:InsuredValue>
+               <v19:Weight>
+                  <v19:Units>LB</v19:Units>
+                  <v19:Value>12.9</v19:Value>
+               </v19:Weight>
+            </v19:RequestedPackageLineItems>
+         </v19:RequestedShipment>
+      </v19:ProcessShipmentRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+

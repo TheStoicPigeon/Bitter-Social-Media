@@ -1,0 +1,204 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <SOAP-ENV:Body>
+      <ProcessShipmentRequest xmlns="http://fedex.com/ws/ship/v19">
+         <WebAuthenticationDetail>
+            <UserCredential>
+               <Key>Input Your Information</Key>
+               <Password/>
+            </UserCredential>
+         </WebAuthenticationDetail>
+         <ClientDetail>
+            <AccountNumber>Input Your Information</AccountNumber>
+            <MeterNumber>Input Your Information</MeterNumber>
+         </ClientDetail>
+         <TransactionDetail>
+            <CustomerTransactionId>IR1_01_MXMX_PO_DIA</CustomerTransactionId>
+         </TransactionDetail>
+         <Version>
+            <ServiceId>ship</ServiceId>
+            <Major>19</Major>
+            <Intermediate>0</Intermediate>
+            <Minor>0</Minor>
+         </Version>
+         <RequestedShipment>
+            <ShipTimestamp>2015-12-29T12:34:56-06:00</ShipTimestamp>
+            <DropoffType>REGULAR_PICKUP</DropoffType>
+            <ServiceType>FEDEX_EXPRESS_SAVER</ServiceType>
+            <PackagingType>YOUR_PACKAGING</PackagingType>
+            <Shipper>
+               <Contact>
+                  <PersonName>Input Your Information</PersonName>
+                  <CompanyName>Input Your Information</CompanyName>
+                  <PhoneNumber>Input Your Information</PhoneNumber>
+                  <EMailAddress>Input Your Information</EMailAddress>
+               </Contact>
+               <Address>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <City>JAIPUR</City>
+                  <StateOrProvinceCode>RJ</StateOrProvinceCode>
+                  <PostalCode>302011</PostalCode>
+                  <CountryCode>IN</CountryCode>
+                  <Residential>0</Residential>
+               </Address>
+            </Shipper>
+            <Recipient>
+               <Contact>
+                  <PersonName>Input Your Information</PersonName>
+                  <CompanyName>Input Your Information</CompanyName>
+                  <PhoneNumber>Input Your Information</PhoneNumber>
+                  <EMailAddress>Input Your Information</EMailAddress>
+               </Contact>
+               <Address>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <City>DELHI</City>
+                  <StateOrProvinceCode>RJ</StateOrProvinceCode>
+                  <PostalCode>302011</PostalCode>
+                  <CountryCode>IN</CountryCode>
+                  <Residential>0</Residential>
+               </Address>
+            </Recipient>
+            <Origin>
+               <Contact>
+                  <PersonName>Input Your Information</PersonName>
+                  <CompanyName>Input Your Information</CompanyName>
+                  <PhoneNumber>Input Your Information</PhoneNumber>
+                  <EMailAddress>Input Your Information</EMailAddress>
+               </Contact>
+               <Address>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <City>JAIPUR</City>
+                  <StateOrProvinceCode>RJ</StateOrProvinceCode>
+                  <PostalCode>302011</PostalCode>
+                  <CountryCode>IN</CountryCode>
+               </Address>
+            </Origin>
+            <ShippingChargesPayment>
+               <PaymentType>SENDER</PaymentType>
+               <Payor>
+                  <ResponsibleParty>
+                     <AccountNumber>Input Your Information</AccountNumber>
+                     <Contact>
+                        <PersonName>Input Your Information</PersonName>
+                        <CompanyName>Input Your Information</CompanyName>
+                        <PhoneNumber>Input Your Information</PhoneNumber>
+                        <EMailAddress>Input Your Information</EMailAddress>
+                     </Contact>
+                     <Address>
+                        <StreetLines>Input Your Information</StreetLines>
+                        <City>Input Your Informationrville</City>
+                        <StateOrProvinceCode>TN</StateOrProvinceCode>
+                        <PostalCode>38017</PostalCode>
+                        <CountryCode>US</CountryCode>
+                        <Residential>0</Residential>
+                     </Address>
+                  </ResponsibleParty>
+               </Payor>
+            </ShippingChargesPayment>
+            <SpecialServicesRequested>
+               <SpecialServiceTypes>COD</SpecialServiceTypes>
+               <SpecialServiceTypes>DELIVERY_ON_INVOICE_ACCEPTANCE</SpecialServiceTypes>
+               <CodDetail>
+                  <CodCollectionAmount>
+                     <Currency>INR</Currency>
+                     <Amount>10.00</Amount>
+                  </CodCollectionAmount>
+                  <CollectionType>CASH</CollectionType>
+               </CodDetail>
+               <DeliveryOnInvoiceAcceptanceDetail>
+                  <Recipient>
+                     <Contact>
+                        <PersonName>Input Your Information</PersonName>
+                        <CompanyName>Input Your Information</CompanyName>
+                        <PhoneNumber>Input Your Information</PhoneNumber>
+                        <EMailAddress>Input Your Information</EMailAddress>
+                     </Contact>
+                     <Address>
+                        <StreetLines>Input Your Information</StreetLines>
+                        <StreetLines>Input Your Information</StreetLines>
+                        <City>DELHI</City>
+                        <StateOrProvinceCode>RJ</StateOrProvinceCode>
+                        <PostalCode>302011</PostalCode>
+                        <CountryCode>IN</CountryCode>
+                     </Address>
+                  </Recipient>
+               </DeliveryOnInvoiceAcceptanceDetail>
+            </SpecialServicesRequested>
+            <CustomsClearanceDetail>
+               <DutiesPayment>
+                  <PaymentType>SENDER</PaymentType>
+                  <Payor>
+                     <ResponsibleParty>
+                        <AccountNumber>Input Your Information</AccountNumber>
+                        <Contact>
+                           <ContactId/>
+                           <PersonName/>
+                           <CompanyName/>
+                           <PhoneNumber/>
+                           <EMailAddress/>
+                        </Contact>
+                     </ResponsibleParty>
+                  </Payor>
+               </DutiesPayment>
+               <DocumentContent>DOCUMENTS_ONLY</DocumentContent>
+               <CustomsValue>
+                  <Currency>INR</Currency>
+                  <Amount>10.000000</Amount>
+               </CustomsValue>
+               <CommercialInvoice>
+                  <Purpose>GIFT</Purpose>
+               </CommercialInvoice>
+               <Commodities>
+                  <NumberOfPieces>1</NumberOfPieces>
+                  <Description>ABCD</Description>
+                  <CountryOfManufacture>US</CountryOfManufacture>
+                  <Weight>
+                     <Units>LB</Units>
+                     <Value>10.0</Value>
+                  </Weight>
+                  <Quantity>1</Quantity>
+                  <QuantityUnits>EA</QuantityUnits>
+                  <UnitPrice>
+                     <Currency>INR</Currency>
+                     <Amount>1.000000</Amount>
+                  </UnitPrice>
+                  <CustomsValue>
+                     <Currency>INR</Currency>
+                     <Amount>10.000000</Amount>
+                  </CustomsValue>
+               </Commodities>
+            </CustomsClearanceDetail>
+            <LabelSpecification>
+               <LabelFormatType>COMMON2D</LabelFormatType>
+               <ImageType>PNG</ImageType>
+               <LabelStockType>PAPER_4X6</LabelStockType>
+            </LabelSpecification>
+            <RateRequestTypes>NONE</RateRequestTypes>
+            <PackageCount>1</PackageCount>
+            <RequestedPackageLineItems>
+               <SequenceNumber>1</SequenceNumber>
+               <GroupNumber>1</GroupNumber>
+               <GroupPackageCount>1</GroupPackageCount>
+               <InsuredValue>
+                  <Currency>INR</Currency>
+                  <Amount>10.0</Amount>
+               </InsuredValue>
+               <Weight>
+                  <Units>LB</Units>
+                  <Value>10.0</Value>
+               </Weight>
+               <Dimensions>
+                  <Length>10</Length>
+                  <Width>10</Width>
+                  <Height>10</Height>
+                  <Units>IN</Units>
+               </Dimensions>
+               <CustomerReferences>
+                  <CustomerReferenceType>CUSTOMER_REFERENCE</CustomerReferenceType>
+                  <Value>RET_OUTBOUND_TRACKING_NUMBER</Value>
+               </CustomerReferences>
+            </RequestedPackageLineItems>
+         </RequestedShipment>
+      </ProcessShipmentRequest>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

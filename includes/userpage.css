@@ -1,0 +1,21 @@
+.row-followersYouKnow {
+  display:flex;
+  align-items:center;
+  width:inherit;
+  padding-bottom:.5rem;
+}
+
+.row-follower {
+  width:70%;
+}
+.profile-icon {
+  padding-right: 1rem;
+  max-width:30%;
+}
+
+.handle {
+  margin-top:-.5rem;
+}
+
+
+

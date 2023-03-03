@@ -1,0 +1,170 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:m0="http://fedex.com/ws/ship/v19">
+   <SOAP-ENV:Body>
+      <ProcessShipmentRequest xmlns="http://fedex.com/ws/ship/v19">
+         <WebAuthenticationDetail>
+            <UserCredential>
+               <Key>Input Your Information</Key>
+               <Password>Input Your Information</Password>
+            </UserCredential>
+         </WebAuthenticationDetail>
+         <ClientDetail>
+            <AccountNumber>Input Your Information</AccountNumber>
+            <MeterNumber>Input Your Information</MeterNumber>
+         </ClientDetail>
+         <TransactionDetail>
+            <CustomerTransactionId>IE_v18_Ship</CustomerTransactionId>
+         </TransactionDetail>
+         <Version>
+            <ServiceId>ship</ServiceId>
+            <Major>19</Major>
+            <Intermediate>0</Intermediate>
+            <Minor>0</Minor>
+         </Version>
+         <RequestedShipment>
+            <ShipTimestamp>2015-12-29T12:34:56-06:00</ShipTimestamp>
+            <DropoffType>REGULAR_PICKUP</DropoffType>
+            <ServiceType>INTERNATIONAL_PRIORITY</ServiceType>
+            <PackagingType>YOUR_PACKAGING</PackagingType>
+            <Shipper>
+               <Contact>
+                  <PersonName>Input Your Information</PersonName>
+                  <CompanyName>Input Your Information</CompanyName>
+                  <PhoneNumber>Input Your Information</PhoneNumber>
+                  <EMailAddress>Input Your Information</EMailAddress>
+               </Contact>
+               <Address>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <City>MEMPHIS</City>
+                  <StateOrProvinceCode>TN</StateOrProvinceCode>
+                  <PostalCode>38117</PostalCode>
+                  <CountryCode>US</CountryCode>
+               </Address>
+            </Shipper>
+            <Recipient>
+               <Contact>
+                  <PersonName>Input Your Information</PersonName>
+                  <CompanyName>Input Your Information</CompanyName>
+                  <PhoneNumber>Input Your Information</PhoneNumber>
+                  <EMailAddress>Input Your Information</EMailAddress>
+               </Contact>
+               <Address>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <StreetLines>Input Your Information</StreetLines>
+                  <City>RICHMOND</City>
+                  <StateOrProvinceCode>BC</StateOrProvinceCode>
+                  <PostalCode>V7C4v7</PostalCode>
+                  <CountryCode>CA</CountryCode>
+               </Address>
+            </Recipient>
+            <ShippingChargesPayment>
+               <PaymentType>SENDER</PaymentType>
+               <Payor>
+                  <ResponsibleParty>
+                     <AccountNumber>Input Your Information</AccountNumber>
+                     <Tins>
+                        <TinType>BUSINESS_STATE</TinType>
+                        <Number>213456</Number>
+                     </Tins>
+                     <Contact>
+                        <ContactId>12345</ContactId>
+                        <PersonName>Input Your Information</PersonName>
+                     </Contact>
+                  </ResponsibleParty>
+               </Payor>
+            </ShippingChargesPayment>
+            <SpecialServicesRequested>
+               <SpecialServiceTypes>RETURN_SHIPMENT</SpecialServiceTypes>
+               <ReturnShipmentDetail>
+                  <ReturnType>PRINT_RETURN_LABEL</ReturnType>
+                  <ReturnAssociation>
+                     <TrackingNumber></TrackingNumber>
+                     <ShipDate>2013-12-11</ShipDate>
+                  </ReturnAssociation>
+               </ReturnShipmentDetail>
+            </SpecialServicesRequested>
+            <CustomsClearanceDetail>
+               <CustomsOptions>
+                  <Type>TRIAL</Type>
+               </CustomsOptions>
+               <DutiesPayment>
+                  <PaymentType>SENDER</PaymentType>
+                  <Payor>
+                     <ResponsibleParty>
+                        <AccountNumber>Input Your Information</AccountNumber>
+                        <Tins>
+                           <TinType>BUSINESS_STATE</TinType>
+                           <Number>213456</Number>
+                        </Tins>
+                        <Contact>
+                           <ContactId>12345</ContactId>
+                           <PersonName>Input Your Information</PersonName>
+                        </Contact>
+                     </ResponsibleParty>
+                  </Payor>
+               </DutiesPayment>
+               <CustomsValue>
+                  <Currency>USD</Currency>
+                  <Amount>100.00</Amount>
+               </CustomsValue>
+               <Commodities>
+                  <NumberOfPieces>1</NumberOfPieces>
+                  <Description>ABCD</Description>
+                  <CountryOfManufacture>US</CountryOfManufacture>
+                  <Weight>
+                     <Units>LB</Units>
+                     <Value>1.0</Value>
+                  </Weight>
+                  <Quantity>1</Quantity>
+                  <QuantityUnits>cm</QuantityUnits>
+                  <UnitPrice>
+                     <Currency>USD</Currency>
+                     <Amount>1.000000</Amount>
+                  </UnitPrice>
+                  <CustomsValue>
+                     <Currency>USD</Currency>
+                     <Amount>100.000000</Amount>
+                  </CustomsValue>
+               </Commodities>
+               <ExportDetail>
+                  <ExportComplianceStatement>30.37(f)</ExportComplianceStatement>
+               </ExportDetail>
+            </CustomsClearanceDetail>
+            <LabelSpecification>
+               <LabelFormatType>COMMON2D</LabelFormatType>
+               <ImageType>PNG</ImageType>
+               <LabelStockType>PAPER_7X4.75</LabelStockType>
+            </LabelSpecification>
+            <ShippingDocumentSpecification>
+               <ShippingDocumentTypes>COMMERCIAL_INVOICE</ShippingDocumentTypes>
+               <CommercialInvoiceDetail>
+                  <Format>
+                     <ImageType>PDF</ImageType>
+                     <StockType>PAPER_LETTER</StockType>
+                     <ProvideInstructions>1</ProvideInstructions>
+                  </Format>
+               </CommercialInvoiceDetail>
+            </ShippingDocumentSpecification>
+            <RateRequestTypes>LIST</RateRequestTypes>
+            <PackageCount>1</PackageCount>
+            <RequestedPackageLineItems>
+               <SequenceNumber>1</SequenceNumber>
+               <Weight>
+                  <Units>LB</Units>
+                  <Value>20.0</Value>
+               </Weight>
+               <Dimensions>
+                  <Length>12</Length>
+                  <Width>12</Width>
+                  <Height>12</Height>
+                  <Units>IN</Units>
+               </Dimensions>
+               <CustomerReferences>
+                  <CustomerReferenceType>CUSTOMER_REFERENCE</CustomerReferenceType>
+                  <Value>TC001_01_PT1_ST01_PK01_SNDUS_RCPCA_POS</Value>
+               </CustomerReferences>
+            </RequestedPackageLineItems>
+         </RequestedShipment>
+      </ProcessShipmentRequest>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
